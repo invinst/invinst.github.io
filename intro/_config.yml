@@ -1,0 +1,12 @@
+port:  5000
+markdown: kramdown
+title: "Citizens Police Data Project"
+name: "Citizens Police Data Project"
+author: "Invisible Institute"
+url: http://cpdb.co
+encoding: utf-8
+timezone: America/Chicago
+description: ""
+shortdesc: ""
+gems:
+  - jekyll-redirect-from
