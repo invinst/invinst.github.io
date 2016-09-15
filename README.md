@@ -1,2 +1,2 @@
-# invinst.github.com
+# invinst.github.io
 Invisible Institute

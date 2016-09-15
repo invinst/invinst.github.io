@@ -1,0 +1,52 @@
+
+/**
+ * San Francisco Text.
+ */
+
+@font-face {
+  font-family: 'San Francisco Text';
+  src: url('../fonts/sanfranciscotext-regular-webfont.eot');
+  src: url('../fonts/sanfranciscotext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sanfranciscotext-regular-webfont.woff2') format('woff2'),
+       url('../fonts/sanfranciscotext-regular-webfont.woff') format('woff'),
+       url('../fonts/sanfranciscotext-regular-webfont.ttf') format('truetype'),
+       url('../fonts/sanfranciscotext-regular-webfont.svg#San Francisco Text regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco Text';
+  src: url('sanfranciscotext-regularitalic-webfont.eot');
+  src: url('../fonts/sanfranciscotext-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sanfranciscotext-regularitalic-webfont.woff2') format('woff2'),
+       url('../fonts/sanfranciscotext-regularitalic-webfont.woff') format('woff'),
+       url('../fonts/sanfranciscotext-regularitalic-webfont.ttf') format('truetype'),
+       url('../fonts/sanfranciscotext-regularitalic-webfont.svg#San Francisco Text italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'San Francisco Text';
+  src: url('../fonts/sanfranciscotext-bold-webfont.eot');
+  src: url('../fonts/sanfranciscotext-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sanfranciscotext-bold-webfont.woff2') format('woff2'),
+       url('../fonts/sanfranciscotext-bold-webfont.woff') format('woff'),
+       url('../fonts/sanfranciscotext-bold-webfont.ttf') format('truetype'),
+       url('../fonts/sanfranciscotext-bold-webfont.svg#San Francisco Text bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco Text';
+  src: url('../fonts/sanfranciscotext-bolditalic-webfont.eot');
+  src: url('../fonts/sanfranciscotext-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sanfranciscotext-bolditalic-webfont.woff2') format('woff2'),
+       url('../fonts/sanfranciscotext-bolditalic-webfont.woff') format('woff'),
+       url('../fonts/sanfranciscotext-bolditalic-webfont.ttf') format('truetype'),
+       url('../fonts/sanfranciscotext-bolditalic-webfont.svg#San Francisco Text bold_italic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
