@@ -34,12 +34,20 @@ var config = {
                  {
                      layer: 'world-coordinates',
                      opacity: 1
+                 },
+                 {
+                     layer: 'country-label',
+                     opacity: 0
                  }
             ],
             onChapterExit: [
                  {
                      layer: 'world-coordinates',
                      opacity: 0
+                 },
+                 {
+                     layer: 'country-label',
+                     opacity: 1
                  }
             ]
         },
