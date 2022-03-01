@@ -32,7 +32,7 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'world-coordinates',
+                     layer: 'intro-coordinates',
                      opacity: 1
                  },
                  {
@@ -42,7 +42,7 @@ var config = {
             ],
             onChapterExit: [
                  {
-                     layer: 'world-coordinates',
+                     layer: 'intro-coordinates',
                      opacity: 0
                  },
                  {
