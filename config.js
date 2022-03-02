@@ -14,7 +14,7 @@ var config = {
             id: 'intro',
             alignment: 'left',
             hidden: true,
-            title: 'Vietnam (1955 - 1975)',
+            title: '',
             image: '',
             description: 'Jon Burge and a generation of police officers enlist in the US Military for the Vietnam War.<br/><br/> ' + 
             'In 1968, Jon Burge volunteered for duty in the Vietnam War, where he provided security for convoys and basecamps ' + 
