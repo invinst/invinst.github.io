@@ -75,7 +75,7 @@ var config = {
                  {
                      layer: 'country-boundaries',
                      opacity: 1
-                 }
+                 },
             ],
             onChapterExit: [
                  {
@@ -94,8 +94,8 @@ var config = {
             'to become Commander of Area 2. At least seventeen of his associates were also veterans of the U.S. ' +
             'military, most from the Vietnam War.',
             location: {
-                center: [-87.62836, 41.87435],
-                zoom: 10.83,
+                center: [-87.43716, 41.81530],
+                zoom: 9.89,
                 pitch: 0,
                 bearing: 0
             },
@@ -104,13 +104,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'chicago',
+                    layer: 'boundaries-police-districts-4vg5v1',
                     opacity: 1
-                }
+                },
             ],
             onChapterExit: [
                 {
-                    layer: 'chicago',
+                    layer: 'boundaries-police-districts-4vg5v1',
                     opacity: 0
                 }
             ]
