@@ -55,7 +55,7 @@ var config = {
             id: 'vietnam',
             alignment: 'left',
             hidden: false,
-            title: 'Vietnam (1955 - 1975)',
+            title: 'Vietnam (1955-1975)',
             image: '',
             description: 'Jon Burge and a generation of police officers enlist in the US Military for the Vietnam War.<br/><br/> ' + 
             'In 1968, Jon Burge volunteered for duty in the Vietnam War, where he provided security for convoys and basecamps ' + 
@@ -88,7 +88,7 @@ var config = {
             id: 'chicago',
             alignment: 'right',
             hidden: false,
-            title: 'Chicago, 1970',
+            title: 'Chicago (1970)',
             image: '',
             description: 'In 1970, Burge joined the Chicago Police Department (CPD), where he rose in power ' + 
             'to become Commander of Area 2. At least seventeen of his associates were also veterans of the U.S. ' +
@@ -119,7 +119,7 @@ var config = {
             id: 'area2-1982',
             alignment: 'left',
             hidden: false,
-            title: 'Area 2 Police Station, 1982',
+            title: 'Area 2 Police Station (1982)',
             image: '',
             description: 'Andrew and Jackie Wilson, two of the earliest known survivors of torture at the ' + 
             'hands of Chicago Police officer Jon Burge, shared a similar fate as the Rabbanis. They were arrested ' +
@@ -154,7 +154,7 @@ var config = {
             id: 'area2-1983',
             alignment: 'right',
             hidden: false,
-            title: 'Area 2 Police Station, 1983',
+            title: 'Area 2 Police Station (1983)',
             image: '',
             description: 'Darrell Cannon, tortured in 1983 and incarcerated for 24 years, testified that ' +
             'the officers played a terrifying game of Russian Roulette on him, where they would seemingly ' +
@@ -224,7 +224,7 @@ var config = {
             id: 'area3-1988-1991',
             alignment: 'right',
             hidden: false,
-            title: 'Area 3 Police Station (1988 - 1991)',
+            title: 'Area 3 Police Station (1988-1991)',
             image: '',
             description: 'Burge moved to Area 3 in 1988.<br/><br/>One of Burge’s contemporaries, <b>Richard Zuley</b>, ' +
             'also joined the Chicago Police in 1970. Zuley,  who is most infamous for his direct link ' +
@@ -257,7 +257,7 @@ var config = {
             id: 'area3-1992',
             alignment: 'left',
             hidden: false,
-            title: 'Area 3 Police Station (1992 - )',
+            title: 'Area 3 Police Station (1992- )',
             image: '',
             description: 'When he returned to Chicago, both Burge and Zuley briefly overlapped on the ' +
             'North Side: Burge in Unit 630, Area 3 (within what is now called Detective Area North), and ' +
@@ -294,7 +294,7 @@ var config = {
             id: 'gulf-war-1990',
             alignment: 'right',
             hidden: false,
-            title: 'Gulf War (1990 - 1991)',
+            title: 'Gulf War (1990-1991)',
             image: '',
             description: 'Like Zuley, younger officers named in torture cases have drifted in and ' +
             'out of security work—like Kenneth Boudreau, who is named in Burge-affiliated and Zuley-affiliated ' +
@@ -364,7 +364,7 @@ var config = {
             id: 'guantanamo-2002-2004',
             alignment: 'right',
             hidden: false,
-            title: 'Guantánamo Bay (2002 - 2004)',
+            title: 'Guantánamo Bay (2002-2004)',
             image: '',
             description: 'Richard Zuley’s recurring interrogation technique of threatening someone’s ' +
             'family became well known after his time as a senior interrogator at Guantánamo Bay from ' +
@@ -462,7 +462,7 @@ var config = {
             id: 'stateway-gardens-2003',
             alignment: 'right',
             hidden: false,
-            title: 'Stateway Gardens, 2003',
+            title: 'Stateway Gardens (2003)',
             image: '',
             description: 'The Skullcap Crew — composed of Edwin Utreras, Robert Stegmiller, Christ Savickas, Andrew Schoeff ' +
             'and Joe Seinitz – joined the Chicago Police in the late 1990s and were a widely feared team of officers within ' +
@@ -496,7 +496,7 @@ var config = {
             id: 'alanbar-iraq',
             alignment: 'left',
             hidden: false,
-            title: 'Al\'Anbar, Iraq, 2007',
+            title: 'Al\'Anbar, Iraq (2007)',
             image: '',
             description: 'Though the Skullcap Crew has been named in more than 20 federal lawsuits, all ' +
             'members are still part of the Chicago Police Department, except for Joe Seinitz. Seinitz retired ' +
