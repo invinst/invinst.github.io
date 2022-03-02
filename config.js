@@ -305,8 +305,8 @@ var config = {
             'leave from the CPD, to serve in the Gulf War from September 1990-July 1991. He worked as a Protective ' +
             'Service Officer and Aide to Camp for the Commanding General of Engineer Forces.',
             location: {
-                center: [47.72742, 29.91365],
-                zoom: 5.88,
+                center: [50.73415, 32.19105],
+                zoom: 5,
                 pitch: 0,
                 bearing: 0
             },
