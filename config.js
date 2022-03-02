@@ -63,8 +63,8 @@ var config = {
             '(he had previously worked as military police in South Korea) and he was assigned to the Ninth Military ' +
             'Police Company of the Ninth Infantry division.', 
             location: {
-                center: [108.33036, 14.37008],
-                zoom: 6.17,
+                center: [101.70440, 16.34775],
+                zoom: 5.28,
                 pitch: 0,
                 bearing: 0
             },
@@ -73,13 +73,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                     layer: 'vietnam',
+                     layer: 'country-boundaries',
                      opacity: 1
                  }
             ],
             onChapterExit: [
                  {
-                     layer: 'vietnam',
+                     layer: 'country-boundaries',
                      opacity: 0
                  }
             ]
