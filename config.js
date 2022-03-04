@@ -1,9 +1,9 @@
 var config = {
-    style: 'mapbox://styles/invisibleinstitute/cl078bybe000114o0cc9nqcz7',
+    style: 'mapbox://styles/invisibleinstitute/cl0cvux6j000s15qgl89uw3by',
     accessToken: 'pk.eyJ1IjoiaW52aXNpYmxlaW5zdGl0dXRlIiwiYSI6ImNrejJ6cnF5ZDAxdWIyd216cWJramZsN24ifQ.BLLN-abgTUSzlsSZixlTWA',
     showMarkers: false,
     markerColor: '#3FB1CE',
-    theme: 'dark',
+    theme: 'light',
     use3dTerrain: false,
     title: 'Chicago to Guantánamo, Connections in an Ecosystem of Violence',
     subtitle: '',
@@ -76,12 +76,20 @@ var config = {
                      layer: 'country-boundaries',
                      opacity: 1
                  },
+                 {
+                     layer: 'vietnam-only',
+                     opacity: 1
+                 },
             ],
             onChapterExit: [
                  {
                      layer: 'country-boundaries',
                      opacity: 0
-                 }
+                 },
+                 {
+                     layer: 'vietnam-only',
+                     opacity: 0
+                 },
             ]
         },
         {
@@ -104,13 +112,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'boundaries-police-districts-4vg5v1',
+                    layer: 'chicago-border',
                     opacity: 1
                 },
             ],
             onChapterExit: [
                 {
-                    layer: 'boundaries-police-districts-4vg5v1',
+                    layer: 'chicago-border',
                     opacity: 0
                 }
             ]
@@ -317,13 +325,21 @@ var config = {
                 {
                     layer: 'gulf-war-1990',
                     opacity: 1
-                }
+                },
+                {
+                    layer: 'iraq-kuwait',
+                    opacity: 1
+                },
             ],
             onChapterExit: [
                 {
                     layer: 'gulf-war-1990',
                     opacity: 0
-                }
+                },
+                {
+                    layer: 'iraq-kuwait',
+                    opacity: 0
+                },
             ]
         },
         {
@@ -373,11 +389,10 @@ var config = {
             'executions, extreme temperatures, and sleep deprivation. Zuley befriended Slahi before the ' +
             'interrogation, and then used what he learned to threaten his mother with arrest if he did not confess.',
             location: {
-                //NEED TO DO ********************************
-                center: [-87.74632, 41.92242],
+                center: [-75.09673, 19.90324],
                 zoom: 18,
-                pitch: 60,
-                bearing: 32.0
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -505,7 +520,7 @@ var config = {
             'SWAT team that combined Iraqi and American forces to run nighttime “capture kill missions to restore ' +
             'peace” in Al’Anbar, Iraq. Since 2016, Seinitz has described his role at the Department of Defense as “classified.”',
             location: {
-                center: [41.60109, 32.90426],
+                center: [41.53088, 32.88492],
                 zoom: 6.03,
                 pitch: 00,
                 bearing: 0
