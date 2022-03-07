@@ -82,10 +82,6 @@ var config = {
                      layer: 'country-boundaries',
                      opacity: 0
                  },
-                 {
-                     layer: 'intro-coordinates',
-                     opacity: 0
-                 },
             ]
         },
         {
@@ -107,10 +103,6 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: 'intro-coordinates',
-                    opacity: 1
-                },
                 {
                     layer: 'chicago-border',
                     opacity: 1
@@ -285,6 +277,10 @@ var config = {
                 {
                     layer: 'area-3-1992-building',
                     opacity: 1
+                },
+                {
+                    layer: 'intro-coordinates',
+                    opacity: 1
                 }
             ],
             onChapterExit: [
@@ -292,10 +288,6 @@ var config = {
                     layer: 'area-3-1992-building',
                     opacity: 0
                 },
-                {
-                    layer: 'intro-coordinates',
-                    opacity: 0
-                }
             ]
         },
         {
@@ -328,10 +320,6 @@ var config = {
                 },
                 {
                     layer: 'iraq-kuwait',
-                    opacity: 1
-                },
-                {
-                    layer: 'intro-coordinates',
                     opacity: 1
                 },
             ],
@@ -471,21 +459,39 @@ var config = {
             id: 'baghram-air-force',
             alignment: 'left',
             hidden: false,
-            title: 'Baghram Air Force',
+            title: 'Baghram Air Force, Afghanistan',
             image: '',
             description: '',
             location: {
                 //NEED TO DO ********************************
-                center: [69.25439, 34.94968],
-                zoom: 7,
+                center: [69.26210332928555, 34.945490748617935],
+                zoom: 10,
                 pitch: 0.50,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'place-town',
+                    opacity: 0
+                },
+                {
+                    layer: 'bagram',
+                    opacity: 1
+                },
+            ],
+            onChapterExit: [
+                {
+                    layer: 'place-town',
+                    opacity: 1
+                },
+                {
+                    layer: 'bagram',
+                    opacity: 0
+                },
+            ]
         },
         {
             id: 'stateway-gardens-2003',
@@ -500,8 +506,8 @@ var config = {
             'Gardens without a warrant, destroyed her altar and belongings, sexually violated her, punched her in the face, ' +
             'and threatened her and her son.',
             location: {
-                center: [-87.62658, 41.83102],
-                zoom: 16,
+                center: [-87.62373, 41.82763],
+                zoom: 15.51,
                 pitch: 00,
                 bearing: 0
             },
@@ -510,13 +516,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'stateway-gardens-2003',
+                    layer: 'stateway-gardens',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'stateway-gardens-2003',
+                    layer: 'stateway-gardens',
                     opacity: 0
                 }
             ]
