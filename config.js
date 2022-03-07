@@ -42,10 +42,6 @@ var config = {
             ],
             onChapterExit: [
                  {
-                     layer: 'intro-coordinates',
-                     opacity: 0
-                 },
-                 {
                      layer: 'country-label',
                      opacity: 1
                  }
@@ -77,7 +73,7 @@ var config = {
                      opacity: 1
                  },
                  {
-                     layer: 'vietnam-only',
+                     layer: 'intro-coordinates',
                      opacity: 1
                  },
             ],
@@ -87,7 +83,7 @@ var config = {
                      opacity: 0
                  },
                  {
-                     layer: 'vietnam-only',
+                     layer: 'intro-coordinates',
                      opacity: 0
                  },
             ]
@@ -112,15 +108,23 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'chicago-border',
+                    layer: 'intro-coordinates',
                     opacity: 1
                 },
+                {
+                    layer: 'chicago-border',
+                    opacity: 1
+                }
             ],
             onChapterExit: [
                 {
+                    layer: 'intro-coordinates',
+                    opacity: 0
+                },
+                {
                     layer: 'chicago-border',
                     opacity: 0
-                }
+                },
             ]
         },
         {
@@ -137,8 +141,8 @@ var config = {
             'ultimately died in prison in 2007. Jackie Wilson was released in 2018 and granted a certificate of ' +
             'innocence in December 2020.',
             location: {
-                center: [-87.60398, 41.72948],
-                zoom: 17.4,
+                center: [-87.60485, 41.72941],
+                zoom: 18.38,
                 pitch: 54,
                 bearing: 1.60
             },
@@ -147,15 +151,15 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'area2-1982',
+                    layer: 'area-2-1982-building',
                     opacity: 1
-                }
+                },
             ],
             onChapterExit: [
                 {
-                    layer: 'area2-1982',
+                    layer: 'area-2-1982-building',
                     opacity: 0
-                }
+                },
             ]
         },
         {
@@ -175,7 +179,7 @@ var config = {
             'became a touchpoint for other Burge-related cases. Today, he organizes fellow survivors in the ' +
             'reparations and torture justice movement.',
             location: {
-                center: [-87.60413, 41.69223],
+                center: [-87.60223, 41.69216],
                 zoom: 17.4,
                 pitch: 54,
                 bearing: 1.60
@@ -185,15 +189,11 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'area3',
+                    layer: 'area-2-1983-building',
                     opacity: 1
                 }
             ],
             onChapterExit: [
-                {
-                    layer: 'area3',
-                    opacity: 0
-                }
             ]
         },
         {
@@ -216,14 +216,10 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: 'area3',
-                    opacity: 1
-                }
             ],
             onChapterExit: [
                 {
-                    layer: 'area3',
+                    layer: 'area-2-1983-building',
                     opacity: 0
                 }
             ]
@@ -250,13 +246,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'area3-1988-1991',
+                    layer: 'area-3-1988-building',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'area3-1988-1991',
+                    layer: 'area-3-1988-building',
                     opacity: 0
                 }
             ]
@@ -277,7 +273,7 @@ var config = {
             'Chicago. <b>At Area 3, he tortured Lee Harris in 1989, who was once Zuley’s close informant, and Benita ' +
             'Johnson in 1995, whom he handcuffed to a wall for over 24 hours and threatened her family.</b>',
             location: {
-                center: [-87.74632, 41.92242],
+                center: [-87.69076, 41.93971],
                 zoom: 18,
                 pitch: 54,
                 bearing: 1.60
@@ -287,13 +283,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'area3-1992',
+                    layer: 'area-3-1992-building',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'area3-1992',
+                    layer: 'area-3-1992-building',
                     opacity: 0
                 }
             ]
@@ -330,6 +326,10 @@ var config = {
                     layer: 'iraq-kuwait',
                     opacity: 1
                 },
+                {
+                    layer: 'intro-coordinates',
+                    opacity: 1
+                },
             ],
             onChapterExit: [
                 {
@@ -338,6 +338,10 @@ var config = {
                 },
                 {
                     layer: 'iraq-kuwait',
+                    opacity: 0
+                },
+                {
+                    layer: 'intro-coordinates',
                     opacity: 0
                 },
             ]
@@ -355,7 +359,7 @@ var config = {
             'police headquarters by hitting him with a flashlight, punching him in the face, ' +
             'handcuffing him to a radiator and ring on the wall, and interrogating him for 39 hours.',
             location: {
-                center: [-87.74632, 41.92242],
+                center: [-87.69076, 41.93971],
                 zoom: 18,
                 pitch: 60,
                 bearing: 32.0
@@ -365,13 +369,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'area3-1992',
+                    layer: 'area-3-1992-building',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'area3-1992',
+                    layer: 'area-3-1992-building',
                     opacity: 0
                 }
             ]
@@ -389,16 +393,26 @@ var config = {
             'executions, extreme temperatures, and sleep deprivation. Zuley befriended Slahi before the ' +
             'interrogation, and then used what he learned to threaten his mother with arrest if he did not confess.',
             location: {
-                center: [-75.09673, 19.90324],
+                center: [-75.09621, 19.90317],
                 zoom: 18,
-                pitch: 0,
+                pitch: 60,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'guantanamo-bay-building',
+                    opacity: 1
+                },
+            ],
+            onChapterExit: [
+                {
+                    layer: 'guantanamo-bay-building',
+                    opacity: 0
+                },
+            ]
         },
         {
             id: 'chicago4-slide-9',
@@ -412,7 +426,7 @@ var config = {
             'County Department of Health. Later, he worked for Chicago Department of Aviation as a projects ' +
             'administrator and interim emergency management director until 2017.',
             location: {
-                center: [-87.74632, 41.92242],
+                center: [-87.69076, 41.93971],
                 zoom: 16,
                 pitch: 0.50,
                 bearing: 0
@@ -422,13 +436,13 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'area3-1992',
+                    layer: 'area-3-1992-building',
                     opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'area3-1992',
+                    layer: 'area-3-1992-building',
                     opacity: 0
                 }
             ]
