@@ -236,8 +236,8 @@ var config = {
             'for the U.S. Navy. It’s unclear what his counterterrorism work included, where he was ' +
             'deployed, or how it may have influenced his behavior in Chicago.',
             location: {
-                center: [-87.69508, 41.82261],
-                zoom: 17.4,
+                center: [-87.694698, 41.82254],
+                zoom: 19.4,
                 pitch: 54,
                 bearing: 1.60
             },
@@ -291,6 +291,10 @@ var config = {
                 {
                     layer: 'area-3-1992-building',
                     opacity: 0
+                },
+                {
+                    layer: 'intro-coordinates',
+                    opacity: 0
                 }
             ]
         },
@@ -338,10 +342,6 @@ var config = {
                 },
                 {
                     layer: 'iraq-kuwait',
-                    opacity: 0
-                },
-                {
-                    layer: 'intro-coordinates',
                     opacity: 0
                 },
             ]
