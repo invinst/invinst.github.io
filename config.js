@@ -48,16 +48,39 @@ var config = {
             ]
         },
         {
+            id: 'south-side',
+            alignment: 'right',
+            hidden: false,
+            title: 'South Side, Chicago',
+            image: '',
+            description: 'NEED TO DO', 
+            location: {
+                center: [101.70440, 16.34775],
+                zoom: 5.28,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            ],
+            onChapterExit: [
+            ]
+        },
+        {
             id: 'vietnam',
             alignment: 'left',
             hidden: false,
             title: 'Vietnam (1955-1975)',
             image: '',
-            description: 'Jon Burge and a generation of police officers enlist in the US Military for the Vietnam War.<br/><br/> ' + 
-            'In 1968, Jon Burge volunteered for duty in the Vietnam War, where he provided security for convoys and basecamps ' + 
-            'as a military police officer, and served a tour as a provost marshal investigator. Vietnam was his second service ' + 
-            '(he had previously worked as military police in South Korea) and he was assigned to the Ninth Military ' +
-            'Police Company of the Ninth Infantry division.', 
+            description: 'Jon Burge, a commander who oversaw the torture of more than 100 Black ' +
+            'people, and a generation of future police officers enlist in the U.S. Military for the ' +
+            'Vietnam War.<br/><br/>Burge enlisted in the army reserve in 1966 and began six years of ' +
+            'service, including two years of active duty. He spent eight weeks at a military police ' +
+            '(MP) school in Georgia. He received some training at Fort Benning, Georgia. He served as ' +
+            'an MP in South Korea, and in 1968 he volunteered for duty a second time, in Vietnam, and ' +
+            'was assigned to the Ninth Military Police Company of the Ninth Infantry Division.', 
             location: {
                 center: [101.70440, 16.34775],
                 zoom: 5.28,
@@ -85,17 +108,23 @@ var config = {
             ]
         },
         {
-            id: 'chicago',
-            alignment: 'right',
+            id: 'dong-tam-base-camp',
+            alignment: 'left',
             hidden: false,
-            title: 'Chicago (1970)',
+            title: 'Dong Tamp Base Camp',
             image: '',
-            description: 'In 1970, Burge joined the Chicago Police Department (CPD), where he rose in power ' + 
-            'to become Commander of Area 2. At least seventeen of his associates were also veterans of the U.S. ' +
-            'military, most from the Vietnam War.',
+            description: 'Burge said during his service, he spent time escorting convoys, providing ' +
+            'security for forward support bases, supervising security for the divisional central base ' +
+            'camp in Dong Tam, and serving a tour as a provost marshal investigator.<br/><br/>As an MP, he ' +
+            'likely learned or observed a torture technique that he would later reproduce in Chicago: ' +
+            'wiring Vietnamese prisoners to a black box and turning a crank that generates an electric ' +
+            'shock. American soldiers in Vietnam called this “the Bell telephone hour,” where they would ' +
+            'shock prisoners with a hand-cranked army field phone.<br/><br/>Burge denied knowing of torture in ' +
+            'Vietnam, but many his peers from the Ninth Military Police Company described the practice ' +
+            'in detail to reporter John Conroy at the Chicago Reader.', 
             location: {
-                center: [-87.43716, 41.81530],
-                zoom: 9.89,
+                center: [106.30681, 10.39238],
+                zoom: 8.00,
                 pitch: 0,
                 bearing: 0
             },
@@ -103,20 +132,47 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                 {
+                     layer: 'intro-coordinates',
+                     opacity: 1
+                 },
+            ],
+            onChapterExit: [
+            ]
+        },
+        {
+            id: 'chicago1',
+            alignment: 'right',
+            hidden: false,
+            title: 'Chicago',
+            image: '',
+            description: 'Burge returned to his childhood home in Chicago in 1969. He grew up in an ' +
+            'all-white, post-World War II housing development on the southeast side, which was now ' +
+            'rapidly changing demographics. He graduated from Bowen High School, where he was active ' +
+            'in ROTC, in 1965. The school was 93% white when he graduated; seven years later, it was ' +
+            '14% white.<br/><br/>In 1970, Burge joined the Chicago Police Department (CPD), where he rose in power ' + 
+            'to become Commander of Area 2. At least seventeen of his associates were also veterans of the U.S. ' +
+            'military, most from the Vietnam War.',
+            location: {
+                center: [-87.56900, 41.72086],
+                zoom: 18.79,
+                pitch: 49.00,
+                bearing: 1.60
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
                 {
-                    layer: 'chicago-border',
+                    layer: 'luella-address',
                     opacity: 1
-                }
+                },
             ],
             onChapterExit: [
                 {
-                    layer: 'intro-coordinates',
+                    layer: 'luella-address',
                     opacity: 0
-                },
-                {
-                    layer: 'chicago-border',
-                    opacity: 0
-                },
+             ,   }
             ]
         },
         {
@@ -136,7 +192,7 @@ var config = {
                 center: [-87.60485, 41.72941],
                 zoom: 18.38,
                 pitch: 54,
-                bearing: 1.60
+                bearing: 6.40
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -189,29 +245,39 @@ var config = {
             ]
         },
         {
-            id: 'area3',
+            id: 'chicago2',
             alignment: 'left',
             hidden: false,
-            title: 'Area 3 Police Station',
+            title: '',
             image: '',
             description: 'Over the next two decades, Burge and his affiliates tortured more than 125 ' +
             'Black people. Aided and abetted by prosecutors, city officials, and the Chicago Police ' +
             'Department, these officers routinely framed innocent Black men for crimes they didn’t commit. ' +
-            'Often, these crimes were high profile, with an expectation and demand on police to catch the person responsible. ',
+            'Often, these crimes were high profile, with an expectation and demand on police to catch the ' +
+            'person responsible.<br/><br/>The Illinois Torture and Relief Commission continues to investigate ' +
+            'a backlog of more than 540 claims of torture, within and beyond Burge’s network.',
             location: {
-                center: [-87.60413, 41.69223],
-                zoom: 17.4,
-                pitch: 60,
-                bearing: 42.40
+                center: [-87.79255, 41.84618],
+                zoom: 9.89,
+                pitch: 0,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
+                {
+                    layer: 'intro-coordinates',
+                    opacity: 1
+                },
+                {
+                    layer: 'chicago-border',
+                    opacity: 1
+                },
             ],
             onChapterExit: [
                 {
-                    layer: 'area-2-1983-building',
+                    layer: 'chicago-border',
                     opacity: 0
                 }
             ]
@@ -229,7 +295,7 @@ var config = {
             'deployed, or how it may have influenced his behavior in Chicago.',
             location: {
                 center: [-87.694698, 41.82254],
-                zoom: 19.4,
+                zoom: 18.4,
                 pitch: 54,
                 bearing: 1.60
             },
@@ -266,7 +332,7 @@ var config = {
             'Johnson in 1995, whom he handcuffed to a wall for over 24 hours and threatened her family.</b>',
             location: {
                 center: [-87.69076, 41.93971],
-                zoom: 18,
+                zoom: 17,
                 pitch: 54,
                 bearing: 1.60
             },
@@ -338,17 +404,19 @@ var config = {
             id: 'area3again',
             alignment: 'left',
             hidden: false,
-            title: 'Area 3 Police Station',
+            title: '',
             image: '',
-            description: 'As recently as August 2021, one of Boudreau and Kill’s youngest victims ' + 
-            'of torture and coerced confession, Johnny Plummer, has won an appeal of his murder case ' +
-            'to the Illinois Appellate Court, after 30 years in prison.<br/><br/>Plummer testified ' +
+            description: 'Recently, in August 2021, one of Boudreau and Kill’s youngest ' +
+            'victims of torture and coerced confession, Johnny Plummer, won an appeal of his ' +
+            'murder case to the Illinois Appellate Court, after 30 years in prison. He will now ' +
+            'be able to present newly discovered evidence in support of his allegations ' +
+            'that he was tortured at Area 3 Headquarters.<br/><br/>Plummer testified ' +
             'that in 1991, when he was 15, Boudreau and Kill tortured him into confession at Area 3 ' +
             'police headquarters by hitting him with a flashlight, punching him in the face, ' +
             'handcuffing him to a radiator and ring on the wall, and interrogating him for 39 hours.',
             location: {
                 center: [-87.69076, 41.93971],
-                zoom: 18,
+                zoom: 17,
                 pitch: 60,
                 bearing: 32.0
             },
@@ -374,16 +442,16 @@ var config = {
             hidden: false,
             title: 'Guantánamo Bay (2002-2004)',
             image: '',
-            description: 'Richard Zuley’s recurring interrogation technique of threatening someone’s ' +
-            'family became well known after his time as a senior interrogator at Guantánamo Bay from ' +
-            '2002-2004.<br/><br/>As described in Spencer Ackerman’s reporting for The Guardian, Zuley tortured ' +
+            description: 'Richard Zuley, on leave from his position at Area 3, worked as a senior ' +
+            'interrogator at Guantánamo Bay from 2002-2004.<br/><br/>As described in Spencer Ackerman’s ' +
+            'reporting for The Guardian, Zuley tortured ' +
             'Mohamedou Ould Slahi into a confession, using prolonged shackling, family threats, mock ' +
             'executions, extreme temperatures, and sleep deprivation. Zuley befriended Slahi before the ' +
             'interrogation, and then used what he learned to threaten his mother with arrest if he did not confess.',
             location: {
-                center: [-75.09621, 19.90317],
-                zoom: 18,
-                pitch: 60,
+                center: [-75.09254, 19.90224],
+                zoom: 16.4,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -394,12 +462,20 @@ var config = {
                     layer: 'guantanamo-bay-building',
                     opacity: 1
                 },
+                {
+                    layer: 'guantanamo-area',
+                    opacity: 1
+                }
             ],
             onChapterExit: [
                 {
                     layer: 'guantanamo-bay-building',
                     opacity: 0
                 },
+                {
+                    layer: 'guantanamo-area',
+                    opacity: 0
+                }
             ]
         },
         {
@@ -429,10 +505,6 @@ var config = {
                 }
             ],
             onChapterExit: [
-                {
-                    layer: 'area-3-1992-building',
-                    opacity: 0
-                }
             ]
         },
         {
@@ -443,8 +515,7 @@ var config = {
             image: '',
             description: 'At the time of this publication, Zuley collects his pension and lives in Florida.',
             location: {
-                //NEED TO DO ********************************
-                center: [-87.68969, 41.94001],
+                center: [-87.69076, 41.93971],
                 zoom: 16,
                 pitch: 0.50,
                 bearing: 0
@@ -453,28 +524,38 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: 'area-3-1992-building',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'baghram-air-force',
             alignment: 'left',
             hidden: false,
-            title: 'Baghram Air Force, Afghanistan',
+            title: 'Baghram Air Base, Afghanistan',
             image: '',
-            description: '',
+            description: 'Meanwhile, in Afghanistan and Iraq, Chicago Police officers in the ' +
+            'military reserves took a leave of absence to join the Global War on Terror. By 2014, ' +
+            'CPD had more than 300 officers serving on active duty in Operation Enduring Freedom, ' +
+            'and more than an additional 100 officers enlisted in the U.S. Military.<br/><br/>Former officers ' +
+            'of the CPD’s Special Operations Section (SOS), Randy Jalloway and Tom Walsh, took a leave ' +
+            'in September 2002 to work together in Bagram as part of a Field Surgical Team.. SOS became ' +
+            'notorious for invading homes without warrants, stealing money, and kidnapping suspects; it was shut down in 2007.',
             location: {
-                //NEED TO DO ********************************
-                center: [69.26210332928555, 34.945490748617935],
-                zoom: 10,
-                pitch: 0.50,
-                bearing: 0
+                center: [69.25280, 34.94235],
+                zoom: 13,
+                pitch: 0.00,
+                bearing: 0.80
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'place-town',
+                    layer: 'pol-large',
                     opacity: 0
                 },
                 {
@@ -484,7 +565,7 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'place-town',
+                    layer: 'pol-large',
                     opacity: 1
                 },
                 {
@@ -507,7 +588,7 @@ var config = {
             'and threatened her and her son.',
             location: {
                 center: [-87.62373, 41.82763],
-                zoom: 15.51,
+                zoom: 15.00,
                 pitch: 00,
                 bearing: 0
             },
@@ -548,7 +629,12 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+                {
+                    layer: 'intro-coordinates',
+                    opacity: 1
+                }
+            ],
             onChapterExit: []
         },
     ]
