@@ -647,7 +647,7 @@ var config = {
             'In 2002, CPD had more than 280 officers in the military reserves.', 
             location: {
                 center: [2.06708, 39.65034],
-                zoom: 1.5,
+                zoom: 1.85,
                 pitch: 0,
                 bearing: 0
             },
