@@ -637,5 +637,35 @@ var config = {
             ],
             onChapterExit: []
         },
+        {
+            id: 'outro',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'Eric Stillman, who killed Adam Toledo, was a marine in the Afghanistan.<br/><br/>' +
+            'In 2002, CPD had more than 280 officers in the military reserves.', 
+            location: {
+                center: [2.06708, 39.65034],
+                zoom: 1.5,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                 {
+                     layer: 'intro-coordinates',
+                     opacity: 1
+                 },
+                 {
+                     layer: 'country-label',
+                     opacity: 0
+                 }
+            ],
+            onChapterExit: [
+            ]
+        },
     ]
 };
