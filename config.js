@@ -121,7 +121,7 @@ var config = {
             'shock. American soldiers in Vietnam called this “the Bell telephone hour,” where they would ' +
             'shock prisoners with a hand-cranked army field phone.<br/><br/>Burge denied knowing of torture in ' +
             'Vietnam, but many his peers from the Ninth Military Police Company described the practice ' +
-            'in detail to reporter John Conroy at the Chicago Reader.', 
+            'in detail to reporter John Conroy at the <i>Chicago Reader</i>.', 
             location: {
                 center: [106.30681, 10.39238],
                 zoom: 8.00,
@@ -444,7 +444,7 @@ var config = {
             image: '',
             description: 'Richard Zuley, on leave from his position at Area 3, worked as a senior ' +
             'interrogator at Guantánamo Bay from 2002-2004.<br/><br/>As described in Spencer Ackerman’s ' +
-            'reporting for The Guardian, Zuley tortured ' +
+            'reporting for <i>The Guardian</i>, Zuley tortured ' +
             'Mohamedou Ould Slahi into a confession, using prolonged shackling, family threats, mock ' +
             'executions, extreme temperatures, and sleep deprivation. Zuley befriended Slahi before the ' +
             'interrogation, and then used what he learned to threaten his mother with arrest if he did not confess.',
