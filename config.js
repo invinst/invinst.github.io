@@ -7,8 +7,8 @@ var config = {
     use3dTerrain: false,
     title: 'Chicago to Guantánamo, Connections in an Ecosystem of Violence',
     subtitle: '',
-    byline: 'StoryMap by Maira Khwaja, Marie Mendoza, and Maheen Khan',
-    footer: 'Source: source citations, etc.',
+    byline: '',
+    footer: 'Maira Khwaja, Marie Mendoza, Maheen Khan<br/>chicagopolicetorturearchive.com<br/>Invisible Institute, 2022',
     chapters: [
         {
             id: 'intro',
