@@ -47,7 +47,7 @@ var config = {
                  }
             ]
         },
-        {
+        /*{
             id: 'south-side',
             alignment: 'right',
             hidden: false,
@@ -67,7 +67,7 @@ var config = {
             ],
             onChapterExit: [
             ]
-        },
+        },*/
         {
             id: 'vietnam',
             alignment: 'left',
@@ -621,7 +621,7 @@ var config = {
             'peace” in Al’Anbar, Iraq. Since 2016, Seinitz has described his role at the Department of Defense as “classified.”',
             location: {
                 center: [41.53088, 32.88492],
-                zoom: 6.03,
+                zoom: 4.41,
                 pitch: 00,
                 bearing: 0
             },
@@ -636,7 +636,7 @@ var config = {
             ],
             onChapterExit: []
         },
-        {
+        /*{
             id: 'outro',
             alignment: 'center',
             hidden: false,
@@ -665,6 +665,6 @@ var config = {
             ],
             onChapterExit: [
             ]
-        },
+        },*/
     ]
 };
