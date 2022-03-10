@@ -47,27 +47,6 @@ var config = {
                  }
             ]
         },
-        /*{
-            id: 'south-side',
-            alignment: 'right',
-            hidden: false,
-            title: 'South Side, Chicago',
-            image: '',
-            description: 'NEED TO DO', 
-            location: {
-                center: [101.70440, 16.34775],
-                zoom: 5.28,
-                pitch: 0,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-            ],
-            onChapterExit: [
-            ]
-        },*/
         {
             id: 'vietnam',
             alignment: 'left',
@@ -112,7 +91,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Dong Tamp Base Camp',
-            image: '',
+            image: './images/blk.box1.jpg',
             description: 'During his service, Burge spent time escorting convoys, providing ' +
             'security for forward support bases, supervising security for the divisional central base ' +
             'camp in Dong Tam, and serving a tour as a provost marshal investigator.<br/><br/>As an MP, he ' +
@@ -188,7 +167,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Area 2 Police Station (1982)',
-            image: '',
+            image: './images/wilson6.face.jpg',
             description: 'Andrew and Jackie Wilson, two of the earliest known survivors of torture at ' +
             'the hands of Chicago Police officer Jon Burge. They were arrested in 1982 on a tip—which was ' +
             'also coerced through torture— that the Wilsons killed Chicago Police officers William Fahey and ' +
@@ -223,7 +202,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Area 2 Police Station (1983)',
-            image: '',
+            image: './images/Darrell-Drawing.png',
             description: 'Darrell Cannon, tortured in 1983 and incarcerated for 24 years, testified that ' +
             'the officers played a terrifying game of Russian Roulette on him, where they would seemingly ' +
             'load a shotgun and stick it in his mouth, forcing him to pull the trigger. The officers then pulled ' +
@@ -257,7 +236,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: '',
+            image: './images/Area+2+Officers.png',
             description: 'Over the next two decades, Burge and his affiliates tortured more than 125 ' +
             'Black people. Aided and abetted by prosecutors, city officials, and the Chicago Police ' +
             'Department, these officers routinely framed innocent Black men for crimes they didn’t commit. ' +
@@ -328,7 +307,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Area 3 Police Station (1992- )',
-            image: '',
+            image: './images/Zuley-theGuardian-map.jpeg',
             description: 'When he returned to Chicago, both Burge and Zuley briefly overlapped on the ' +
             'North Side: Burge in Unit 630, Area 3 (within what is now called Detective Area North), and ' +
             'Zuley in Unit 606, Central Investigations.  Burge was fired in 1993, after the Chicago ' +
@@ -416,7 +395,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: '',
+            image: './images/Johnny-Plummer-mom.jpg',
             description: 'Recently, in August 2021, one of Boudreau and Kill’s youngest ' +
             'victims of torture and coerced confession, Johnny Plummer, won an appeal of his ' +
             'murder case to the Illinois Appellate Court, after 30 years in prison. He will now ' +
@@ -452,7 +431,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Guantánamo Bay (2002-2004)',
-            image: '',
+            image: './images/Slahi.jpg',
             description: 'Richard Zuley, on leave from his position at Area 3, worked as a senior ' +
             'interrogator at Guantánamo Bay from 2002-2004.<br/><br/>As described in Spencer Ackerman’s ' +
             'reporting for <i>The Guardian</i>, Zuley tortured ' +
@@ -590,7 +569,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Stateway Gardens (2003)',
-            image: '',
+            image: './images/Diane-Bond.jpg',
             description: 'Another crew of officers, the Skullcap Crew — composed of Edwin Utreras, Robert Stegmiller, Christ Savickas, Andrew Schoeff ' +
             'and Joe Seinitz – joined the Chicago Police in the late 1990s and were a widely feared team of officers within ' +
             'the Public Housing South unit. Former residents of now-demolished Stateway Gardens housing have described locking ' +
@@ -624,7 +603,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Al\'Anbar, Iraq (2007)',
-            image: '',
+            image: './images/Seinitz-linkedin.png',
             description: 'Though the Skullcap Crew has been named in more than 20 federal lawsuits, all ' +
             'members are still part of the Chicago Police Department —  except for Joe Seinitz. Seinitz retired ' +
             'in 2007 from CPD, and went on to advise the Department of Defense throughout Iraq.<br/><br/>He proudly ' +
