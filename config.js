@@ -181,13 +181,12 @@ var config = {
             hidden: false,
             title: 'Area 2 Police Station (1982)',
             image: '',
-            description: 'Andrew and Jackie Wilson, two of the earliest known survivors of torture at the ' + 
-            'hands of Chicago Police officer Jon Burge, shared a similar fate as the Rabbanis. They were arrested ' +
-            'in 1982 on a tip, coerced through torturing a suspect, that the Wilsons killed Chicago Police ' +
-            'Officers Fahey and O’Brien. They were tortured into confession; both brothers were connected to a ' +
-            'hand-cranked generator and given electric shocks. Their legal fights lasted decades: Andrew Wilson ' +
-            'ultimately died in prison in 2007. Jackie Wilson was released in 2018 and granted a certificate of ' +
-            'innocence in December 2020.',
+            description: 'Andrew and Jackie Wilson, two of the earliest known survivors of torture at the hands ' +
+            'of Chicago Police officer Jon Burge. They were arrested in 1982 on a tip -- which was also coerced ' +
+            'through torture -- that the Wilsons killed Chicago Police officers William Fahey and Richard O\'Brien. ' +
+            'They were tortured into confession; both brothers were connected to a hand-cranked generator and given ' +
+            'electric shocks. Their legal fights lasted decades: Andrew Wilson ultimately died in prison in 2007. ' +
+            'Jackie Wilson was released in 2018 and granted a certificate of innocence in December 2020',
             location: {
                 center: [-87.60485, 41.72941],
                 zoom: 18.38,
