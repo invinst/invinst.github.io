@@ -5,7 +5,7 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: false,
-    title: 'Chicago to Guantánamo, Connections in an Ecosystem of Violence',
+    title: 'Chicago to Guantánamo: Connections in an Ecosystem of Violence',
     subtitle: '',
     byline: '',
     footer: 'Maira Khwaja, Marie Mendoza, Maheen Khan<br/>chicagopolicetorturearchive.com<br/>Invisible Institute, 2022',
@@ -113,14 +113,14 @@ var config = {
             hidden: false,
             title: 'Dong Tamp Base Camp',
             image: '',
-            description: 'Burge said during his service, he spent time escorting convoys, providing ' +
+            description: 'During his service, Burge spent time escorting convoys, providing ' +
             'security for forward support bases, supervising security for the divisional central base ' +
             'camp in Dong Tam, and serving a tour as a provost marshal investigator.<br/><br/>As an MP, he ' +
             'likely learned or observed a torture technique that he would later reproduce in Chicago: ' +
             'wiring Vietnamese prisoners to a black box and turning a crank that generates an electric ' +
             'shock. American soldiers in Vietnam called this “the Bell telephone hour,” where they would ' +
             'shock prisoners with a hand-cranked army field phone.<br/><br/>Burge denied knowing of torture in ' +
-            'Vietnam, but many his peers from the Ninth Military Police Company described the practice ' +
+            'Vietnam, but many of his peers from the Ninth Military Police Company described the practice ' +
             'in detail to reporter John Conroy at the <i>Chicago Reader</i>.', 
             location: {
                 center: [106.30681, 10.39238],
@@ -136,8 +136,16 @@ var config = {
                      layer: 'intro-coordinates',
                      opacity: 1
                  },
+                 {
+                     layer: 'dongtam',
+                     opacity: 1
+                 },
             ],
             onChapterExit: [
+                {
+                    layer: 'dongtam',
+                    opacity: 0
+                },
             ]
         },
         {
@@ -155,9 +163,9 @@ var config = {
             'military, most from the Vietnam War.',
             location: {
                 center: [-87.56900, 41.72086],
-                zoom: 18.79,
-                pitch: 49.00,
-                bearing: 1.60
+                zoom: 13.19,
+                pitch: 60.00,
+                bearing: -4
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -181,12 +189,13 @@ var config = {
             hidden: false,
             title: 'Area 2 Police Station (1982)',
             image: '',
-            description: 'Andrew and Jackie Wilson, two of the earliest known survivors of torture at the hands ' +
-            'of Chicago Police officer Jon Burge. They were arrested in 1982 on a tip -- which was also coerced ' +
-            'through torture -- that the Wilsons killed Chicago Police officers William Fahey and Richard O\'Brien. ' +
-            'They were tortured into confession; both brothers were connected to a hand-cranked generator and given ' +
-            'electric shocks. Their legal fights lasted decades: Andrew Wilson ultimately died in prison in 2007. ' +
-            'Jackie Wilson was released in 2018 and granted a certificate of innocence in December 2020',
+            description: 'Andrew and Jackie Wilson, two of the earliest known survivors of torture at ' +
+            'the hands of Chicago Police officer Jon Burge. They were arrested in 1982 on a tip—which was ' +
+            'also coerced through torture— that the Wilsons killed Chicago Police officers William Fahey and ' +
+            'Richard O\'Brien. They were tortured into confession; both brothers were connected to a ' +
+            'hand-cranked generator and given electric shocks. Their legal fights lasted decades: Andrew Wilson ' +
+            'ultimately died in prison in 2007. Jackie Wilson was released in 2018 and granted a certificate ' +
+            'of innocence in December 2020.',
             location: {
                 center: [-87.60485, 41.72941],
                 zoom: 18.38,
@@ -223,7 +232,7 @@ var config = {
             'it is something that is indescribable. I still live with it today.”<br/><br/> Sgt. John Byrne and Detectives ' +
             'Peter Dignan, who worked closely with Burge and were both Marine Corps veterans, participated in ' +
             'torturing and coercing his murder confession. Cannon was exonerated in 2004 and freed in 2007. His case ' +
-            'became a touchpoint for other Burge-related cases. Today, he organizes fellow survivors in the ' +
+            'became a touchpoint for other Burge-related cases. Today, Cannon organizes fellow survivors in the ' +
             'reparations and torture justice movement.',
             location: {
                 center: [-87.60223, 41.69216],
@@ -294,9 +303,9 @@ var config = {
             'deployed, or how it may have influenced his behavior in Chicago.',
             location: {
                 center: [-87.694698, 41.82254],
-                zoom: 18.4,
-                pitch: 54,
-                bearing: 1.60
+                zoom: 12.35,
+                pitch: 41,
+                bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -362,13 +371,16 @@ var config = {
             title: 'Gulf War (1990-1991)',
             image: '',
             description: 'Like Zuley, younger officers named in torture cases have drifted in and ' +
-            'out of security work—like Kenneth Boudreau, who is named in Burge-affiliated and Zuley-affiliated ' +
-            'cases—training and consulting in private military-esque firms in their retirement. These officers ' +
-            'have not admitted culpability, decades later. Boudreau, for example, is named in at least 46 ' +
-            'torture claims, thirteen of them alongside now-deceased Michael Kill (between the two of them, ' +
-            '72 people have accused them of using torture; 20 of whom have been exonerated).<br/><br/>Boudreau took a ' +
-            'leave from the CPD, to serve in the Gulf War from September 1990-July 1991. He worked as a Protective ' +
-            'Service Officer and Aide to Camp for the Commanding General of Engineer Forces.',
+            'out of military and security work. Kenneth Boudreau, for example, is named in Burge-affiliated ' +
+            'and Zuley-affiliated cases.<br/><br/>Boudreau took a leave from the CPD to serve in the Gulf War from ' +
+            'September 1990-July 1991. He worked as a Protective Service Officer and Aide to Camp for the ' +
+            'Commanding General of Engineer Forces. He has since been named in at least 46 torture claims, ' +
+            'thirteen of them alongside now-deceased Michael Kill (between the two of them, 72 people have ' +
+            'accused them of using torture; 20 of whom have been exonerated).<br/><br/>At the end of his CPD career, in ' +
+            '2014, he was commanding officer in the Gang School Safety Team, which collaborates with Chicago Public ' +
+            'Schools, and was a leader in creating the team’s social media surveillance unit. He has not admitted ' +
+            'culpability, decades later. In a 2018 interview, Boudreau called the exonerations “a travesty of justice.” ' +
+            'Today, he is CEO at Embassy Security Group.',
             location: {
                 center: [50.73415, 32.19105],
                 zoom: 5,
@@ -534,14 +546,14 @@ var config = {
             id: 'baghram-air-force',
             alignment: 'left',
             hidden: false,
-            title: 'Baghram Air Base, Afghanistan',
+            title: 'Bagram Air Base, Afghanistan',
             image: '',
             description: 'Meanwhile, in Afghanistan and Iraq, Chicago Police officers in the ' +
             'military reserves took a leave of absence to join the Global War on Terror. By 2014, ' +
             'CPD had more than 300 officers serving on active duty in Operation Enduring Freedom, ' +
             'and more than an additional 100 officers enlisted in the U.S. Military.<br/><br/>Former officers ' +
             'of the CPD’s Special Operations Section (SOS), Randy Jalloway and Tom Walsh, took a leave ' +
-            'in September 2002 to work together in Bagram as part of a Field Surgical Team.. SOS became ' +
+            'in September 2002 to work together in Bagram as part of a Field Surgical Team.<br/><br/>SOS became ' +
             'notorious for invading homes without warrants, stealing money, and kidnapping suspects; it was shut down in 2007.',
             location: {
                 center: [69.25280, 34.94235],
@@ -579,7 +591,7 @@ var config = {
             hidden: false,
             title: 'Stateway Gardens (2003)',
             image: '',
-            description: 'The Skullcap Crew — composed of Edwin Utreras, Robert Stegmiller, Christ Savickas, Andrew Schoeff ' +
+            description: 'Another crew of officers, the Skullcap Crew — composed of Edwin Utreras, Robert Stegmiller, Christ Savickas, Andrew Schoeff ' +
             'and Joe Seinitz – joined the Chicago Police in the late 1990s and were a widely feared team of officers within ' +
             'the Public Housing South unit. Former residents of now-demolished Stateway Gardens housing have described locking ' +
             'their doors when the crew approached. In 2003, for example, they invaded Diane Bond’s home twice at Stateway ' +
@@ -614,8 +626,8 @@ var config = {
             title: 'Al\'Anbar, Iraq (2007)',
             image: '',
             description: 'Though the Skullcap Crew has been named in more than 20 federal lawsuits, all ' +
-            'members are still part of the Chicago Police Department, except for Joe Seinitz. Seinitz retired ' +
-            'in 2007 from CPD, and went on to advise the Department of Defense throughout Iraq. He proudly ' +
+            'members are still part of the Chicago Police Department —  except for Joe Seinitz. Seinitz retired ' +
+            'in 2007 from CPD, and went on to advise the Department of Defense throughout Iraq.<br/><br/>He proudly ' +
             'discloses on his LinkedIn that he led the “CLEAT anti terrorism unit,” and posted photos of his ' +
             'SWAT team that combined Iraqi and American forces to run nighttime “capture kill missions to restore ' +
             'peace” in Al’Anbar, Iraq. Since 2016, Seinitz has described his role at the Department of Defense as “classified.”',
@@ -636,17 +648,27 @@ var config = {
             ],
             onChapterExit: []
         },
-        /*{
-            id: 'outro',
-            alignment: 'center',
+        {
+            id: 'toledo',
+            alignment: 'left',
             hidden: false,
             title: '',
             image: '',
-            description: 'Eric Stillman, who killed Adam Toledo, was a marine in the Afghanistan.<br/><br/>' +
-            'In 2002, CPD had more than 280 officers in the military reserves.', 
+            description: 'The individual histories of military and police officers are hard to trace, ' +
+            'and not tracked by a single public source. The public does not know which officers have served ' +
+            'in the military; the public also does not know of every case of torture, black sites or ' +
+            'disappearances, and routine encounters with police that fit within this mode of policing, one ' +
+            'that that aids and abets the use of coerced confessions and power with impunity.<br/><br/>In infamous cases ' +
+            'of a police killing or torture, backgrounds emerge: officer Eric Stillman, who killed 13-year-old ' +
+            'Adam Toledo in 2021, was a Marine in Afghanistan.<br/><br/>Retired detective Dante Servin, who killed 22-year-old ' +
+            'Rekia Boyd in 2012, previously trained police in Kosovo and Mexico. Two months after her death, he ' +
+            'went to Honduras to lead a national police team on homicide investigations. Since 2017, he has been an ' +
+            'international police advisor in Honduras.',
             location: {
-                center: [2.06708, 39.65034],
-                zoom: 1.85,
+                //NEED TO DO
+                //Chicago OR world map with pin points on chicago, honduras, kosovo, mexico, afghanistan
+                center: [-87.79255, 41.84618],
+                zoom: 9.89,
                 pitch: 0,
                 bearing: 0
             },
@@ -654,17 +676,69 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                 {
-                     layer: 'intro-coordinates',
-                     opacity: 1
-                 },
-                 {
-                     layer: 'country-label',
-                     opacity: 0
-                 }
+                {
+                    layer: 'intro-coordinates',
+                    opacity: 1
+                }
             ],
-            onChapterExit: [
-            ]
-        },*/
+            onChapterExit: []
+        },
+        {
+            id: 'secondLast',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: 'In an interview for this piece, Khury Petersen-Smith, the Middle East Fellow at ' +
+            'the Institute for Policy Studies, explained that these practices of torture in Chicago and the ' +
+            'Global War on Terror track with American histories of violence. He argues these specific ' +
+            'geographies are sites of knowledge and testing ground for new methods of control, and that these ' +
+            'police and military actors are treated as “scholars of violence.” He calls the relationships between ' +
+            'police departments and military history not linear or a direct chronology, but “circuits of violence ' +
+            'between the U.S. domestic regime and the extent of the U.S. empire.”',
+            location: {
+                center: [-2.72423, 23.41095],
+                zoom: 2,
+                pitch: 00,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'intro-coordinates',
+                    opacity: 0
+                }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'last',
+            alignment: 'center',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '“I think there’s this idea that something special happened to Jon Burge in ' +
+            'Vietnam, and that that explains why he would do something so monstrous. And obviously lots ' +
+            'of things happen to people who are in combat and it is a wildly traumatic experience. Look at the ' +
+            'world Jon Burge grew up in. Look at the world Richard Zuley grew up in. You grow up in the United ' +
+            'States and you are primed to then go and commit and develop and hone forms of violence elsewhere and ' +
+            'bring it back here. It’s the most ordinary thing in the world for the U.S. to support and incubate ' +
+            'violence, and then not just import it, but be in a relationship to it.”',
+            location: {
+                center: [-2.72423, 23.41095],
+                zoom: 2,
+                pitch: 00,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+            ],
+            onChapterExit: []
+        },
+        
     ]
 };
