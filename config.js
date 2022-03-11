@@ -9,8 +9,7 @@ var config = {
     subtitle: '',
     byline: '',
     footer: 'Maira Khwaja, Marie Mendoza, Maheen Khan<br/>chicagopolicetorturearchive.com<br/>Invisible Institute, 2022<br/><br/>'
-    +
-    'Photo credits:<br/>People’s Law Office, chicagopolicetorturearchive.org<br/> The Guardian<br/> Aaron Bulnes<br/> Patricia Evans<br/> LinkedIn',
+    + 'Photo credits:<br/>People’s Law Office, chicagopolicetorturearchive.org<br/> The Guardian<br/> Aaron Bulnes<br/> Patricia Evans<br/> LinkedIn',
     chapters: [
         {
             id: 'intro',
@@ -102,8 +101,7 @@ var config = {
             'shock. American soldiers in Vietnam called this “the Bell telephone hour,” where they would ' +
             'shock prisoners with a hand-cranked army field phone.<br/><br/>Burge denied knowing of torture in ' +
             'Vietnam, but many of his peers from the Ninth Military Police Company described the practice ' +
-            'in detail to reporter John Conroy at the <i>Chicago Reader</i>.<br/><br/>' +
-            '<i>Photo credit: People’s Law Office, chicagopolicetorturearchive.org</i>', 
+            'in detail to reporter John Conroy at the <i>Chicago Reader</i>.', 
             location: {
                 center: [106.30681, 10.39238],
                 zoom: 8.00,
@@ -177,8 +175,7 @@ var config = {
             'Richard O\'Brien. They were tortured into confession; both brothers were connected to a ' +
             'hand-cranked generator and given electric shocks. Their legal fights lasted decades: Andrew Wilson ' +
             'ultimately died in prison in 2007. Jackie Wilson was released in 2018 and granted a certificate ' +
-            'of innocence in December 2020.<br/><br/>' +
-            '<i>Photo credit: People’s Law Office, chicagopolicetorturearchive.org</i>',
+            'of innocence in December 2020.',
             location: {
                 center: [-87.60485, 41.72941],
                 zoom: 18.38,
@@ -216,8 +213,7 @@ var config = {
             'Peter Dignan, who worked closely with Burge and were both Marine Corps veterans, participated in ' +
             'torturing and coercing his murder confession. Cannon was exonerated in 2004 and freed in 2007. His case ' +
             'became a touchpoint for other Burge-related cases. Today, Cannon organizes fellow survivors in the ' +
-            'reparations and torture justice movement.<br/><br/>' +
-            '<i>Photo credit: People’s Law Office, chicagopolicetorturearchive.org</i>',
+            'reparations and torture justice movement.',
             location: {
                 center: [-87.60223, 41.69216],
                 zoom: 17.4,
@@ -247,8 +243,7 @@ var config = {
             'Department, these officers routinely framed innocent Black men for crimes they didn’t commit. ' +
             'Often, these crimes were high profile, with an expectation and demand on police to catch the ' +
             'person responsible.<br/><br/>The Illinois Torture and Relief Commission continues to investigate ' +
-            'a backlog of more than 540 claims of torture, within and beyond Burge’s network.<br/><br/>' +
-            '<i>Photo credit: People’s Law Office, chicagopolicetorturearchive.org</i>',
+            'a backlog of more than 540 claims of torture, within and beyond Burge’s network.',
             location: {
                 center: [-87.79255, 41.84618],
                 zoom: 9.89,
@@ -322,8 +317,7 @@ var config = {
             'expert in his 25-year career as a detective, investigating high profile crimes like the murder ' +
             'of 7-year old Dantrell Davis.<br/><br/>Over that same career, he tortured at least five people in ' +
             'Chicago. <b>At Area 3, he tortured Lee Harris in 1989, who was once Zuley’s close informant, and Benita ' +
-            'Johnson in 1995, whom he handcuffed to a wall for over 24 hours and threatened her family.</b><br/><br/>' +
-            '<i>Photo credit: The Guardian</i>',
+            'Johnson in 1995, whom he handcuffed to a wall for over 24 hours and threatened her family.',
             location: {
                 center: [-87.69076, 41.93971],
                 zoom: 17,
@@ -410,8 +404,7 @@ var config = {
             'that he was tortured at Area 3 Headquarters.<br/><br/>Plummer testified ' +
             'that in 1991, when he was 15, Boudreau and Kill tortured him into confession at Area 3 ' +
             'police headquarters by hitting him with a flashlight, punching him in the face, ' +
-            'handcuffing him to a radiator and ring on the wall, and interrogating him for 39 hours.<br/><br/>' +
-            '<i>Photo credit: Aaron Bulnes</i>',
+            'handcuffing him to a radiator and ring on the wall, and interrogating him for 39 hours',
             location: {
                 center: [-87.69076, 41.93971],
                 zoom: 17,
@@ -583,8 +576,7 @@ var config = {
             'the Public Housing South unit. Former residents of now-demolished Stateway Gardens housing have described locking ' +
             'their doors when the crew approached. In 2003, for example, they invaded Diane Bond’s home twice at Stateway ' +
             'Gardens without a warrant, destroyed her altar and belongings, sexually violated her, punched her in the face, ' +
-            'and threatened her and her son.<br/><br/>' +
-            '<i>Photo credit: Patricia Evans</i>',
+            'and threatened her and her son.',
             location: {
                 center: [-87.62373, 41.82763],
                 zoom: 15.00,
@@ -618,8 +610,7 @@ var config = {
             'in 2007 from CPD, and went on to advise the Department of Defense throughout Iraq.<br/><br/>He proudly ' +
             'discloses on his LinkedIn that he led the “CLEAT anti terrorism unit,” and posted photos of his ' +
             'SWAT team that combined Iraqi and American forces to run nighttime “capture kill missions to restore ' +
-            'peace” in Al’Anbar, Iraq. Since 2016, Seinitz has described his role at the Department of Defense as “classified.”<br/><br/>' +
-            '<i>Photo credit: LinkedIn</i>',
+            'peace” in Al’Anbar, Iraq. Since 2016, Seinitz has described his role at the Department of Defense as “classified.”',
             location: {
                 center: [41.53088, 32.88492],
                 zoom: 4.41,
