@@ -169,7 +169,7 @@ var config = {
             hidden: false,
             title: 'Area 2 Police Station (1982)',
             image: './images/wilson6.face.jpg',
-            description: 'Andrew and Jackie Wilson, two of the earliest known survivors of torture at ' +
+            description: 'Andrew Wilson (pictured) and Jackie Wilson, two of the earliest known survivors of torture at ' +
             'the hands of Chicago Police officer Jon Burge. They were arrested in 1982 on a tip—which was ' +
             'also coerced through torture— that the Wilsons killed Chicago Police officers William Fahey and ' +
             'Richard O\'Brien. They were tortured into confession; both brothers were connected to a ' +
@@ -211,7 +211,7 @@ var config = {
             'the most sadistic act ever performed,” he told journalist Amanda Rivkin in 2016. “The feeling of ' +
             'it is something that is indescribable. I still live with it today.”<br/><br/> Sgt. John Byrne and Detectives ' +
             'Peter Dignan, who worked closely with Burge and were both Marine Corps veterans, participated in ' +
-            'torturing and coercing his murder confession. Cannon was exonerated in 2004 and freed in 2007. His case ' +
+            'torturing and coercing Cannon\'s murder confession. Cannon was exonerated in 2004 and freed in 2007. His case ' +
             'became a touchpoint for other Burge-related cases. Today, Cannon organizes fellow survivors in the ' +
             'reparations and torture justice movement.',
             location: {
@@ -309,9 +309,9 @@ var config = {
             hidden: false,
             title: 'Area 3 Police Station (1992- )',
             image: './images/Zuley-theGuardian-map.jpeg',
-            description: 'When he returned to Chicago, both Burge and Zuley briefly overlapped on the ' +
-            'North Side: Burge in Unit 630, Area 3 (within what is now called Detective Area North), and ' +
-            'Zuley in Unit 606, Central Investigations.  Burge was fired in 1993, after the Chicago ' +
+            description: 'When Zuley returned to Chicago, he briefly overlapped with Burge on the North Side: ' +
+            'Burge in Unit 630, Area 3 (within what is now called Detective Area North), and Zuley in Unit 606, ' +
+            'Central Investigations. Burge was fired in 1993, after the Chicago ' +
             'Police Board found that he had abused Andrew Wilson.<br/><br/>Although it is not in official records that ' +
             'they ever worked together, Zuley and Burge shared mutual colleagues. Zuley was seen as an ' +
             'expert in his 25-year career as a detective, investigating high profile crimes like the murder ' +
@@ -404,7 +404,7 @@ var config = {
             'that he was tortured at Area 3 Headquarters.<br/><br/>Plummer testified ' +
             'that in 1991, when he was 15, Boudreau and Kill tortured him into confession at Area 3 ' +
             'police headquarters by hitting him with a flashlight, punching him in the face, ' +
-            'handcuffing him to a radiator and ring on the wall, and interrogating him for 39 hours',
+            'handcuffing him to a radiator and ring on the wall, and interrogating him for 39 hours.',
             location: {
                 center: [-87.69076, 41.93971],
                 zoom: 17,
@@ -634,11 +634,10 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'The individual histories of military and police officers are hard to trace, ' +
-            'and not tracked by a single public source. The public does not know which officers have served ' +
-            'in the military; the public also does not know of every case of torture, black sites or ' +
-            'disappearances, and routine encounters with police that fit within this mode of policing, one ' +
-            'that that aids and abets the use of coerced confessions and power with impunity.<br/><br/>In infamous cases ' +
+            description: 'The public does not know which officers have served in the military, and cases of ' +
+            'torture, black sites, and disappearances are generally not matters of public knowledge. Neither are ' +
+            'routine encounters with police that fit within this mode of policing — one that aids and abets the use ' +
+            'of coerced confessions and power with immunity. <br/><br/>In infamous cases ' +
             'of a police killing or torture, backgrounds emerge: officer Eric Stillman, who killed 13-year-old ' +
             'Adam Toledo in 2021, was a Marine in Afghanistan.<br/><br/>Retired detective Dante Servin, who killed 22-year-old ' +
             'Rekia Boyd in 2012, previously trained police in Kosovo and Mexico. Two months after her death, he ' +
